@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "name": "v-rust-tunnel",
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/api/index" }
+    ],
+    "regions": ["fra1"],
+    "trailingSlash": false
+  }
